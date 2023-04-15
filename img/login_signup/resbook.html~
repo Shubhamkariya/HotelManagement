@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>Restaurent Booking</title>
+</head>
+<style>
+header
+	{
+		background-color: black;
+		text-align:center;
+		
+	}
+
+body
+	{
+		color:white;		
+		height:100%;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+footer
+	{
+		background-color:black;
+		color:white;
+	}
+.left{
+float:left;
+width:50%
+}
+
+.right{
+ float:right;
+width:50%;
+}
+
+.centered{
+ position: absolute;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ text-align: center;
+}
+body{
+position:absolute;
+width:100%
+}
+.main
+{
+
+height:100%;
+position:relative;
+width:100%;
+border:1px solid black;
+}
+</style>
+<header>
+<body>
+<form>
+
+	<fieldset>
+		<legend></legend>
+			<div style="background-color:#F7FDFF">
+	<form>
+		<fieldset>
+			<legend></legend>
+				<header>
+					<img src="IMG@.jpg" width="800px" height="140px"></img>
+				</header>
+		</fieldset>
+	</form>
+			</div>
+
+
+
+
+</header>
+<p><a href="http://192.168.16.1/TYAG14/MANAGEMENT/img/main.html"><button>HOME</button></a></p>
+
+<div class="main">
+<div class ="left">
+<div class ="TestRotator">
+<img src="1.JPG" width="100%" height="550px" id="rotator">
+<script type="text/javascript">
+(function () {
+      var rotator=document.getElementById('rotator');
+      var delayInSeconds = 2;
+      var images=['2.jpg','20.jpg'];
+      var num=0;
+      var changeImage = function()
+      {
+        var len = images.length;
+        rotator.src = images[num++];
+        if(num==len)
+        {
+          num=0;
+        }
+      };
+      setInterval(changeImage,delayInSeconds*1000);
+})();
+</script>
+</div>
+
+<div class ="right">
+<h3><u>Please Enter The Following Details.</u></h3>
+<br><br><br><br><br>
+<form>
+
+How Many Tables You Want To Book:<input type="time" ><br>
+At What Time You Want to Book The Table:<select>
+					<!--<option name="1" value="1">1
+					<option name="2" value="2">2
+					<option name="3" value="3">3
+					<option name="4" value="4">4
+					<option name="5" value="5">5-->
+					<option name="6" value="6">6 AM
+					<option name="7" value="7">7 AM
+					<option name="8" value="8">8 AM
+					<option name="9" value="9">9 AM
+					<option name="10" value="10">10 AM
+					<option name="11" value="11">11 AM
+					<option name="12" value="12">12 PM
+					<option name="13" value="13">13 PM
+					<option name="14" value="14">14 PM
+					<option name="15" value="15">15 PM
+					<option name="16" value="16">16 PM
+					<option name="17" value="17">17 PM
+					<option name="18" value="18">18 PM
+					<option name="19" value="19">19 PM
+					<option name="20" value="20">20 PM
+					<option name="21" value="21">21 PM
+					<option name="22" value="22">22 PM
+					<option name="23" value="23">23 PM
+					<!--<option name="24" value="24">24-->
+					</select><br><br><br>
+<input type="submit" name="book" value="Book">
+</form>
+</div>
+</div>
+<footer height="10dp">
+	<FIELDSET>
+	<LEGEND></LEGEND>
+	<h5><b>	CONTACT US</b></h5>
+	<ul>	020-25438790  </ul>
+	<ul>    020-25438797  </ul></center>
+	<center><h5><b>	CONNECT US </b></h5>
+	<a href="fb.html"><img src="/exports/TYAG14/MANAGEMENT/img/login_signup/social/fb.jpg" style="background-color:black;" width="7%"></img></a>
+	<a href="yt.html"><img src="/exports/TYAG14/MANAGEMENT/imgyt.jpg" width="7%"></img></a>
+	<a href="in.html"><img src="/exports/TYAG14/MANAGEMENT/img/it.jpg" width="7%"></img></a>
+	<a href="tw.html"><img src="/exports/TYAG14/MANAGEMENT/img/tw.jpg" width="5%"></img></center></a>
+	</FIELDSET>
+	
+</footer>
+
+
+</body>
+</html>
+

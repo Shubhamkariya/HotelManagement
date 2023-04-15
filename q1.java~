@@ -1,0 +1,61 @@
+import java.io.*;
+abstract class q1
+{
+	int id;
+	String name;
+	Staff(int id,String name)
+	{
+		this.id=id;
+		this.name=name;
+	}
+}
+
+class OfficeStaff extends q1
+{
+	String dept;
+	int no_of_hours;
+	float salary;
+	OfficeStaff(int id, String name, String dept,int no_of_hours,float salary)
+	{
+		super(id,name);
+		this.dept=dept;
+		this.no_of_hours=no_of_hours;
+		this.salary=salary;
+	}
+	float calculate_salary()
+	{
+		return no_of_hours*salary;
+	}
+	void display()
+	{
+		System.out.println("ID: "+id+"\nName: "+name+"\nDepartment: "+dept+"No of Hours"+no_of_hours+"\nSalary: "+salary+"\nGrossSalary: "+this.calculate_salary());
+	}
+}
+
+class q1
+{
+	public static void main(String[] args)throws IOException
+	{
+		int id,no_of_hours;
+		float salary;
+		String name,dept;
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("How many entries?");
+		int n=Integer.parseInt(br.readLine());
+		OfficeStaff obj[]=new OfficeStaff[n];
+		for(int i=0;i<n;i++)
+		{
+			System.out.println("Enter id: ");
+			id=Integer.parseInt(br.readLine());
+			System.out.println("Enter name: ");
+			name=br.readLine();
+			System.out.println("Enter Department: ");
+			dept=br.readLine();
+			System.out.println("Enter no. of hours: ");
+			no_of_hours=Integer.parseInt(br.readLine());
+			System.out.println("Enter salary: ");
+			salary=Integer.parseInt(br.readLine());
+			obj[i]=new OfficeStaff
+		}
+	}
+}

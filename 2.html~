@@ -1,0 +1,146 @@
+<!DOCTYPE  html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+ font-family: Arial; 
+}
+header{
+	top:20%;
+	}
+.split {
+ height: 100%;
+ width: 50%;
+ position: fixed;`
+ z-index:1;
+ top: 0;
+ overflow-x: hidden;
+ padding-top: 0px;
+}
+.main
+{
+height:1000px;
+width:100%;
+border:1px solid black;
+}
+.left{
+ left: 0;
+color:black;
+}
+
+.right{
+ right: 0;
+
+}
+
+.centered{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ text-align: center;
+}
+
+
+}
+</style>
+</head>
+<body>
+<header>
+<form>
+
+	<fieldset>
+		<legend></legend>
+			<div style="background-color:#F7FDFF">
+	<form>
+		<fieldset>
+			<legend></legend>
+				<header>
+					<img src="IMG@.jpg" width="800px" height="140px"></img>
+				</header>
+		</fieldset>
+	</form>
+			</div>
+	</fieldset>
+
+</form>
+</header>
+<p><a href="http://192.168.16.1/TYAG14/MANAGEMENT/img/main.html"><button>HOME</button></a></p>
+<div class="main">
+<div class="split left">
+ 
+ <img src="1.JPG" width="800px" height="400px" id="rotator">
+<script type="text/javascript">
+(function () {
+      var rotator=document.getElementById('rotator');
+      var delayInSeconds = 2;
+      var images=['4.jpg','7.jpg','11.jpg','12.jpg','13.jpg','14.jpg','15.jpg','19.jpg','21.jpg'];
+      var num=0;
+      var changeImage = function()
+      {
+        var len = images.length;
+        rotator.src = images[num++];
+        if(num==len)
+        {
+          num=0;
+        }
+      };
+      setInterval(changeImage,delayInSeconds*100);
+})();
+</script>
+</div>
+</div>
+
+<div class="split right">
+ <h3><u>Please Enter The Following Details.</u></h3><br>
+<fieldset>
+<LEGEND>HOTEL DETAIL </LEGEND>
+Type of Room: <select>
+		<option name="room" value="room">AC
+	            <option name="room" value="room">Non-AC
+	      </select>
+<br><br><br>
+		<input type="radio" name="room" value="1"> Single Bed
+		<input type="radio" name="room" value="2"> Double Bed
+		<input type="radio" name="room" value="3">   Suits
+		<input type="radio" name="room" value="4"> Deluxe
+<br><br><br>
+
+
+
+Check-In Time:<select>
+		<option name="1" value="1">   1 AM
+		<option name="2" value="2">   2 AM
+		<option name="3" value="3">   3 AM
+		<option name="4" value="4">   4 AM
+		<option name="5" value="5">   5 AM
+		<option name="6" value="6">   6 AM
+		<option name="7" value="7">   7 AM
+		<option name="8" value="8">   8 AM
+		<option name="9" value="9">   9 AM
+		<option name="10" value="10">10 AM
+		<option name="11" value="11">11 AM
+		<option name="12" value="12">12 PM
+		<option name="13" value="13">13 PM
+		<option name="14" value="14">14 PM
+		<option name="15" value="15">15 PM
+		<option name="16" value="16">16 PM
+		<option name="17" value="17">17 PM
+		<option name="18" value="18">18 PM
+		<option name="19" value="19">19 PM
+		<option name="20" value="20">20 PM
+		<option name="21" value="21">21 PM
+		<option name="22" value="22">22 PM
+		<option name="23" value="23">23 PM
+		<option name="24" value="24">24 AM
+	      </select><br><br><br>
+	<input type="submit" name="submit" value="Book">
+</fieldset>
+</form>
+</div>
+
+</div>
+</body>
+</html>
+

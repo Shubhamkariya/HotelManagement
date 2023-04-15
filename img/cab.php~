@@ -1,0 +1,151 @@
+<html>
+<head>
+<title> LOGIN </title>
+<head>
+
+
+
+
+<style>
+	body{
+		background-image: url("9.jpg");
+		
+	    }
+	div	{
+			color:white;
+		}
+header
+	{
+		background-color:black;
+	}
+</style>
+<body>
+<header>
+<form>
+	<fieldset>
+		<legend></legend>
+			<div style="background-color:#F7FDFF">
+	<form>
+		<fieldset>
+			<legend></legend>
+				<header>
+					<img src="IMG@.jpg" width="800px" height="140px"></img>
+				</header>
+		</fieldset>
+	</form>
+			</div>
+
+</header>
+<img>
+	<center>
+	<div>
+		<form>
+		<fieldset>
+		<legend> CAB BOOKING</legend>
+		FROM:<input type="text" name="name" onKeyUp="validate(this.value)"><br><br><br>
+		<div id="res"></div>
+		TO:<input type="password" name="password" onKeyUp="validate1(this.value)"><br><br><br>
+		<div id="res1"></div>
+		DEPARTURE DATE:<select>
+				<option name="1" value="1">1
+				<option name="2" value="2">2
+				<option name="3" value="3">3
+				<option name="4" value="4">4
+				<option name="5" value="5">5
+				<option name="6" value="6">6
+				<option name="7" value="7">7
+				<option name="8" value="8">8
+				<option name="9" value="9">9
+				<option name="10" value="10">10
+				<option name="11" value="11">11
+				<option name="12" value="12">12
+				<option name="13" value="13">13
+				<option name="14" value="14">14
+				<option name="15" value="15">15
+				<option name="16" value="16">16
+				<option name="17" value="17">17
+				<option name="18" value="18">18
+				<option name="19" value="19">19
+				<option name="20" value="20">20
+				<option name="21" value="21">21
+				<option name="22" value="22">22
+				<option name="23" value="23">23
+				<option name="24" value="24">24
+				<option name="25" value="25">25
+				<option name="26" value="26">26
+				<option name="27" value="27">27
+				<option name="28" value="28">28
+				<option name="29" value="29">29
+				<option name="30" value="30">30
+				<option name="31" value="31">31
+			</select>
+			<select>
+				<option name="1" value="1">Jan
+				<option name="2" value="2">Feb
+				<option name="3" value="3">Mar
+				<option name="4" value="4">Apr
+				<option name="5" value="5">May
+				<option name="6" value="6">Jun
+				<option name="7" value="7">Jul
+				<option name="8" value="8">Aug
+				<option name="9" value="9">Sept
+				<option name="10" value="10">Oct
+				<option name="11" value="11">Nov
+				<option name="12" value="12">Dec
+			</select>
+	<br><br><br>
+			ARRIVAL DATE:<select>
+				<option name="1" value="1">1
+				<option name="2" value="2">2
+				<option name="3" value="3">3
+				<option name="4" value="4">4
+				<option name="5" value="5">5
+				<option name="6" value="6">6
+				<option name="7" value="7">7
+				<option name="8" value="8">8
+				<option name="9" value="9">9
+				<option name="10" value="10">10
+				<option name="11" value="11">11
+				<option name="12" value="12">12
+				<option name="13" value="13">13
+				<option name="14" value="14">14
+				<option name="15" value="15">15
+				<option name="16" value="16">16
+				<option name="17" value="17">17
+				<option name="18" value="18">18
+				<option name="19" value="19">19
+				<option name="20" value="20">20
+				<option name="21" value="21">21
+				<option name="22" value="22">22
+				<option name="23" value="23">23
+				<option name="24" value="24">24
+				<option name="25" value="25">25
+				<option name="26" value="26">26
+				<option name="27" value="27">27
+				<option name="28" value="28">28
+				<option name="29" value="29">29
+				<option name="30" value="30">30
+				<option name="31" value="31">31
+			</select>
+			<select>
+				<option name="1" value="1">Jan
+				<option name="2" value="2">Feb
+				<option name="3" value="3">Mar
+				<option name="4" value="4">Apr
+				<option name="5" value="5">May
+				<option name="6" value="6">Jun
+				<option name="7" value="7">Jul
+				<option name="8" value="8">Aug
+				<option name="9" value="9">Sept
+				<option name="10" value="10">Oct
+				<option name="11" value="11">Nov
+				<option name="12" value="12">Dec
+			</select>
+			<br><br><br>
+		<input type="submit" name="submit" value="book">
+		</fieldset>
+	</form>
+	</div>
+	</center>
+<img>
+</html>
